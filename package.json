@@ -14,7 +14,6 @@
     "react-dom": "~16.11.0",
     "react-native": "https://github.com/expo/react-native/archive/sdk-38.0.2.tar.gz",
     "react-native-web": "~0.11.7",
-    "undefined": "@expo-google-fonts/Open+Sans",
     "expo-font": "~8.2.1"
   },
   "devDependencies": {
