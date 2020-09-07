@@ -14,6 +14,7 @@ function HomeRoutes() {
     <NavigationContainer independent={true}>
       <Header />
       <Navigator
+        swipeEnabled={false}
         tabBarOptions={{
           style: {
             height: 40,
@@ -23,14 +24,19 @@ function HomeRoutes() {
           labelStyle: {
             fontFamily: "openSans400",
             fontSize: 12,
-            marginTop: -20,
+            marginTop: 0,
+            textTransform: "none",
           },
 
           inactiveTintColor: colors.gray,
           activeTintColor: colors.black,
         }}
       >
-        <Screen name="Home" component={HomeTab} />
+        <Screen
+          name="Home"
+          component={HomeTab}
+          options={{ upperCaseLabel: false }}
+        />
         <Screen name="TV Shows" component={ComingSoon} />
         <Screen name="Movies" component={ComingSoon} />
         <Screen name="Kids" component={ComingSoon} />
