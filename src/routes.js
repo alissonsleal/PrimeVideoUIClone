@@ -9,7 +9,7 @@ import {
 } from "@expo/vector-icons";
 import colors from "./styles/colors";
 
-import Home from "./pages/Home";
+import Home from "./pages/Home/homeRoutes";
 import ComingSoon from "./pages/ComingSoon";
 
 const { Navigator, Screen } = createBottomTabNavigator();
@@ -34,7 +34,7 @@ function Routes() {
             height: 20,
           },
           labelStyle: {
-            fontFamily: "openSans400",
+            /* fontFamily: "openSans400", */
             fontSize: 11,
             marginTop: 10,
           },
