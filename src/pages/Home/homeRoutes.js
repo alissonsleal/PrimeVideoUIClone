@@ -3,13 +3,13 @@ import { NavigationContainer } from "@react-navigation/native";
 import { createMaterialTopTabNavigator } from "@react-navigation/material-top-tabs";
 import colors from "../../styles/colors";
 
-import Home from "./index";
+import HomeTab from "./HomeTab/index";
 import ComingSoon from "./ComingSoon/index";
 import Header from "../../components/Header/index";
 
 const { Navigator, Screen } = createMaterialTopTabNavigator();
 
-function homeRoutes() {
+function HomeRoutes() {
   return (
     <NavigationContainer independent={true}>
       <Header />
@@ -30,7 +30,7 @@ function homeRoutes() {
           activeTintColor: colors.black,
         }}
       >
-        <Screen name="Home" component={Home} />
+        <Screen name="Home" component={HomeTab} />
         <Screen name="TV Shows" component={ComingSoon} />
         <Screen name="Movies" component={ComingSoon} />
         <Screen name="Kids" component={ComingSoon} />
@@ -39,4 +39,4 @@ function homeRoutes() {
   );
 }
 
-export default homeRoutes;
+export default HomeRoutes;

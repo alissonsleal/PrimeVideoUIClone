@@ -9,7 +9,7 @@ import {
 } from "@expo/vector-icons";
 import colors from "./styles/colors";
 
-import Home from "./pages/Home/homeRoutes";
+import Home from "./pages/Home/HomeRoutes";
 import ComingSoon from "./pages/ComingSoon";
 
 const { Navigator, Screen } = createBottomTabNavigator();
