@@ -4,11 +4,11 @@
     "slug": "PrimeVideoUIClone",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./src/images/icon.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./src/images/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#0f0f0f"
+      "backgroundColor": "#0f171e"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -18,7 +18,7 @@
       "supportsTablet": true
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./src/images/favicon.png"
     }
   }
 }
