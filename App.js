@@ -4,11 +4,16 @@ import { StatusBar } from "expo-status-bar";
 
 import Routes from "./src/routes";
 
-import { OpenSans_400Regular, useFonts } from "@expo-google-fonts/open-sans";
+import {
+  OpenSans_400Regular,
+  OpenSans_700Bold,
+  useFonts,
+} from "@expo-google-fonts/open-sans";
 
 export default function App() {
   let [fontsLoaded] = useFonts({
     openSans400: OpenSans_400Regular,
+    openSans700: OpenSans_700Bold,
   });
 
   if (!fontsLoaded) {

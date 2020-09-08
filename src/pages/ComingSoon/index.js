@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Wrapper, Heading } from "./styles";
+import { Wrapper, Heading, Listing } from "./styles";
 
 const ComingSoon = () => {
   return (

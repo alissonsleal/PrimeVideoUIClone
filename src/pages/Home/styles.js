@@ -2,8 +2,10 @@ import styled from "styled-components/native";
 
 import colors from "../../../styles/colors";
 
-export const Wrapper = styled.ScrollView`
+export const Wrapper = styled.View`
   background-color: ${colors.primary};
+  flex: 1;
+  height: 150%;
 `;
 
 export const Heading = styled.Text`
@@ -11,8 +13,6 @@ export const Heading = styled.Text`
   font-size: 18px;
   font-family: openSans700;
   margin-left: 15px;
-  padding-top: 15px;
-  padding-bottom: 5px;
 `;
 
 export const Container = styled.View``;

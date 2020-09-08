@@ -1,6 +1,8 @@
 import React from "react";
 import { NavigationContainer } from "@react-navigation/native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
+import { createMaterialTopTabNavigator } from "@react-navigation/material-top-tabs";
+
 import {
   MaterialCommunityIcons,
   Entypo,
@@ -9,15 +11,55 @@ import {
 } from "@expo/vector-icons";
 import colors from "./styles/colors";
 
-import Home from "./pages/Home/HomeRoutes";
+import Home from "./pages/Home/HomeTab/index";
 import ComingSoon from "./pages/ComingSoon";
+import Header from "./components/Header/index";
 
-const { Navigator, Screen } = createBottomTabNavigator();
+const Bot = createBottomTabNavigator();
+const Top = createMaterialTopTabNavigator();
+
+function HomeRoutes() {
+  return (
+    <>
+      <Header />
+      <Top.Navigator
+        swipeEnabled={false}
+        lazy={true}
+        tabBarOptions={{
+          style: {
+            height: 40,
+            backgroundColor: colors.primary,
+            borderTopWidth: 0,
+          },
+          labelStyle: {
+            fontFamily: "openSans400",
+            fontSize: 12,
+            marginTop: 0,
+            textTransform: "none",
+          },
+
+          inactiveTintColor: colors.gray,
+          activeTintColor: colors.black,
+        }}
+      >
+        <Top.Screen
+          name="Home"
+          component={Home}
+          options={{ upperCaseLabel: false }}
+        />
+        <Top.Screen name="TV Shows" component={ComingSoon} />
+        <Top.Screen name="Movies" component={ComingSoon} />
+        <Top.Screen name="Kids" component={ComingSoon} />
+      </Top.Navigator>
+    </>
+  );
+}
 
 function Routes() {
   return (
     <NavigationContainer>
-      <Navigator
+      <Bot.Navigator
+        lazy={true}
         tabBarOptions={{
           style: {
             height: 60,
@@ -34,7 +76,7 @@ function Routes() {
             height: 20,
           },
           labelStyle: {
-            /* fontFamily: "openSans400", */
+            fontFamily: "openSans400",
             fontSize: 11,
             marginTop: 10,
           },
@@ -42,9 +84,9 @@ function Routes() {
           activeTintColor: colors.blue,
         }}
       >
-        <Screen
+        <Bot.Screen
           name="Home"
-          component={Home}
+          component={HomeRoutes}
           options={{
             tabBarIcon: ({ size, focused }) => {
               return (
@@ -57,7 +99,7 @@ function Routes() {
             },
           }}
         />
-        <Screen
+        <Bot.Screen
           name="Find"
           component={ComingSoon}
           options={{
@@ -72,7 +114,7 @@ function Routes() {
             },
           }}
         />
-        <Screen
+        <Bot.Screen
           name="Downloads"
           component={ComingSoon}
           options={{
@@ -87,7 +129,7 @@ function Routes() {
             },
           }}
         />
-        <Screen
+        <Bot.Screen
           name="My Stuff"
           component={ComingSoon}
           options={{
@@ -102,7 +144,7 @@ function Routes() {
             },
           }}
         />
-      </Navigator>
+      </Bot.Navigator>
     </NavigationContainer>
   );
 }

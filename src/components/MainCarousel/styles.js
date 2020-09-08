@@ -7,6 +7,10 @@ export const Carousel = styled.ScrollView.attrs({
   showsHorizontalScrollIndicator: false,
 })`
   width: 400px;
+  height: 125px;
+  background-color: white;
+  margin-top: 2px;
+  margin-bottom: 10px;
 `;
 
 export const CarouselContainer = styled.TouchableOpacity`
