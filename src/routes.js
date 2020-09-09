@@ -63,7 +63,7 @@ function Routes() {
         tabBarOptions={{
           style: {
             height: 60,
-            backgroundColor: colors.primary,
+            backgroundColor: colors.tag,
             borderTopWidth: 0,
           },
           tabStyle: {
