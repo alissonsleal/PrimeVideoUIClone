@@ -47,9 +47,9 @@ function HomeRoutes() {
           component={Home}
           options={{ upperCaseLabel: false }}
         />
-        <Top.Screen name="TV Shows" component={ComingSoon} />
-        <Top.Screen name="Movies" component={ComingSoon} />
-        <Top.Screen name="Kids" component={ComingSoon} />
+        <Top.Screen name="TV Shows" component={Home} />
+        <Top.Screen name="Movies" component={Home} />
+        <Top.Screen name="Kids" component={Home} />
       </Top.Navigator>
     </>
   );
