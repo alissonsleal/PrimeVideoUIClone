@@ -14,6 +14,7 @@ import colors from "./styles/colors";
 import Home from "./pages/Home/HomeTab/index";
 import ComingSoon from "./pages/ComingSoon";
 import Header from "./components/Header/index";
+import Find from "./pages/Find/Find";
 
 const Bot = createBottomTabNavigator();
 const Top = createMaterialTopTabNavigator();
@@ -101,7 +102,7 @@ function Routes() {
         />
         <Bot.Screen
           name="Find"
-          component={ComingSoon}
+          component={Find}
           options={{
             tabBarIcon: ({ size, focused }) => {
               return (
