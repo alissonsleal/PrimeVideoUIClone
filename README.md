@@ -10,7 +10,7 @@
 
 ## Description
 
-This is just a React Native learning experience for me. I just did the front page UI, i might do the rest if i find the time. Feel free to fork and continue if you want.
+This is just a React Native learning experience for me. I just did the Home and Find pages UI, i might do the rest if i find the time. Feel free to fork and continue if you want.
 
 You can find the Expo project [here](https://expo.io/@alissonsleal/PrimeVideoUIClone).
 
@@ -42,15 +42,15 @@ To open the expo server, just run:
 ## Screenshots
 
 <p align="center">
-<img src="https://i.imgur.com/OcqZEXJ.gif" alt="App Example Usage" width="256px">
+<img src="https://i.imgur.com/AQb54EI.gif" alt="App Example Usage" width="256px">
 </p>
 
 <p align="center">
-<img src="https://i.imgur.com/6JBfUpK.gif" alt="App Tabs Usage" width="256px">
+<img src="https://i.imgur.com/Bx0zP89.png" alt="HomePage Screenshot" width="256px">
 </p>
 
 <p align="center">
-<img src="https://i.imgur.com/Bx0zP89.png" alt="App Screenshot" width="256px">
+<img src="https://i.imgur.com/Nk4LXgH.png" alt="Find Page Screenshot" width="256px">
 </p>
 
 ## License

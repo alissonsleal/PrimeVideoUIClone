@@ -22,7 +22,7 @@
     "web": {
       "favicon": "./src/images/favicon.png"
     },
-    "description": "",
+    "description": "This is just a React Native learning experience for me. I just did the Home and Find pages UI, i might do the rest if i find the time. Feel free to fork and continue if you want.",
     "githubUrl": "https://github.com/Alissonsleal/PrimeVideoUIClone"
   }
 }
