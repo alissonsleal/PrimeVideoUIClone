@@ -21,14 +21,6 @@ const HomeTab = () => {
           <ShowsCarousel />
           <Heading>Watch Next TV and movies</Heading>
           <ShowsCarousel />
-          <Heading>Watch Next TV and movies</Heading>
-          <ShowsCarousel />
-          <Heading>Watch Next TV and movies</Heading>
-          <ShowsCarousel />
-          <Heading>Watch Next TV and movies</Heading>
-          <ShowsCarousel />
-          <Heading>Watch Next TV and movies</Heading>
-          <ShowsCarousel />
         </Main>
       </Container>
     </Wrapper>
