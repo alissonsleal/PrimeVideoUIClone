@@ -11,10 +11,12 @@ import {
 } from "@expo/vector-icons";
 import colors from "./styles/colors";
 
+import Header from "./components/Header/index";
+
 import Home from "./pages/Home/HomeTab/index";
 import ComingSoon from "./pages/ComingSoon";
-import Header from "./components/Header/index";
 import Find from "./pages/Find/Find";
+import Downloads from "./pages/Downloads/Downloads";
 
 const Bot = createBottomTabNavigator();
 const Top = createMaterialTopTabNavigator();
@@ -117,7 +119,7 @@ function Routes() {
         />
         <Bot.Screen
           name="Downloads"
-          component={ComingSoon}
+          component={Downloads}
           options={{
             tabBarIcon: ({ size, focused }) => {
               return (

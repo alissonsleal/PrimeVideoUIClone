@@ -10,7 +10,7 @@
 
 ## Description
 
-This is just a React Native learning experience for me. I just did the Home and Find pages UI, i might do the rest if i find the time. Feel free to fork and continue if you want.
+This is the Prime Video Android app we're cloning to understand how the UI was made and also learning how a React Native app works. Feel free to fork and continue if you want.
 
 You can find the Expo project [here](https://expo.io/@alissonsleal/PrimeVideoUIClone).
 
@@ -42,7 +42,7 @@ To open the expo server, just run:
 ## Screenshots
 
 <p align="center">
-<img src="https://i.imgur.com/AQb54EI.gif" alt="App Example Usage" width="256px">
+<img src="https://i.imgur.com/5VPzSvY.gif" alt="App Example Usage" width="256px">
 </p>
 
 <p align="center">
@@ -52,6 +52,16 @@ To open the expo server, just run:
 <p align="center">
 <img src="https://i.imgur.com/Nk4LXgH.png" alt="Find Page Screenshot" width="256px">
 </p>
+
+<p align="center">
+<img src="https://i.imgur.com/OZWgkC6.png" alt="Downloads Page Screenshot" width="256px">
+</p>
+
+## Hacktoberfest
+
+We're totally Hacktoberfest friendly, feel free to do some pull requests and help this project.
+
+[Back To The Top](#Description)
 
 ## License
 
