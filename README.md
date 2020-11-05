@@ -14,6 +14,24 @@ This is the Prime Video Android app we're cloning to understand how the UI was m
 
 You can find the Expo project [here](https://expo.io/@alissonsleal/PrimeVideoUIClone).
 
+UU## Screenshots
+
+<p align="center">
+<img src="https://i.imgur.com/5VPzSvY.gif" alt="App Example Usage" width="256px">
+</p>
+
+<p align="center">
+<img src="https://i.imgur.com/Bx0zP89.png" alt="HomePage Screenshot" width="256px">
+</p>
+
+<p align="center">
+<img src="https://i.imgur.com/Nk4LXgH.png" alt="Find Page Screenshot" width="256px">
+</p>
+
+<p align="center">
+<img src="https://i.imgur.com/OZWgkC6.png" alt="Downloads Page Screenshot" width="256px">
+</p>
+
 [Back To The Top](#Description)
 
 #### Tecnologies
@@ -38,24 +56,6 @@ To open the expo server, just run:
 `expo start`
 
 [Back To The Top](#Description)
-
-## Screenshots
-
-<p align="center">
-<img src="https://i.imgur.com/5VPzSvY.gif" alt="App Example Usage" width="256px">
-</p>
-
-<p align="center">
-<img src="https://i.imgur.com/Bx0zP89.png" alt="HomePage Screenshot" width="256px">
-</p>
-
-<p align="center">
-<img src="https://i.imgur.com/Nk4LXgH.png" alt="Find Page Screenshot" width="256px">
-</p>
-
-<p align="center">
-<img src="https://i.imgur.com/OZWgkC6.png" alt="Downloads Page Screenshot" width="256px">
-</p>
 
 ## Hacktoberfest
 
