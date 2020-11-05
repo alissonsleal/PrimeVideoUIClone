@@ -14,7 +14,7 @@ This is the Prime Video Android app we're cloning to understand how the UI was m
 
 You can find the Expo project [here](https://expo.io/@alissonsleal/PrimeVideoUIClone).
 
-UU## Screenshots
+## Screenshots
 
 <p align="center">
 <img src="https://i.imgur.com/5VPzSvY.gif" alt="App Example Usage" width="256px">
